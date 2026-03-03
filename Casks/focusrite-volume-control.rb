@@ -11,6 +11,11 @@ cask "focusrite-volume-control" do
 
   app "Focusrite Volume Control.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Focusrite Volume Control.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/net.nickmorozov.FocusriteVolumeControl.plist",
   ]
