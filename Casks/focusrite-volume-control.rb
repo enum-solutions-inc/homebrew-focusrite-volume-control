@@ -1,6 +1,6 @@
 cask "focusrite-volume-control" do
-  version "1.5"
-  sha256 "7c877644bc71dbfda6fa04bbe4c57a8bf8d698f02353ae1612b3473a208fddf5"
+  version "1.5.1"
+  sha256 "a99c801e69327d307b66ddb41939b4b6c5676bb41fa7b5b871c374df7028cc5c"
 
   url "https://github.com/enum-solutions-inc/focusrite-volume-control/releases/download/v#{version}/FocusriteVolumeControl.dmg"
   name "Focusrite Volume Control"
